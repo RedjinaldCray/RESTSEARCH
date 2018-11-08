@@ -1,4 +1,11 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+a{ text-decoration: none; }
+
+body 
+{
     padding: 0;
     margin: 0;
     background: #3d3d3d;
@@ -8,41 +15,205 @@ body {
     text-align: justify;
 }
 
-
-
-.cap
-{
-    height: 100px;
-    width: 1100px;
-    margin: auto;
-
-
-}
-.midle
-{
-    height: 1000px;
-    width: 1100px;
-    margin: auto;
-
-}
-
 header
 {
     margin: 0 auto;
     height: auto;
-	background: #3d3d33;
+    background: #3d3d3d;
     background-repeat: no-repeat;
 }
 
 
-section {
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #b60818;
+  border-radius: 1.625rem;
+}
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #737373;
+  border-right: 0.125rem solid #737373;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover .circle {
+  width: 90%;
+}
+button:hover .circle .icon.arrow {
+  background: #737373;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #fff;
+}
+
+#container
+{
+    width: 192px;
+    height: 48px;
+    padding: 0;
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+    position:relative;
+}
+
+
+
+.cap
+{
+    height: 120px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#logo
+{
+    margin-top: 0px;
+    margin-left: 20px;
+    display: inline;
+    width: 200px;
+    height: 120px;
+}
+
+.button-text a
+{
+    text-decoration: none;
+    color: #9f9f9f;
+}
+
+main {
 
 	margin: 0 auto;
-
-	height: 1000px;
+    display: block;
+	height: 2000px;
     background: #737373;
     background-repeat: no-repeat;
 }
+
+.restsearch
+{       
+     padding-top: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 300px;
+    display: flex;
+}
+
+#imgone
+{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.specialize-contrainer
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.specialize-contrainer h3
+{
+    font-size: 30px
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text p
+{
+    font-size: 30px
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.first-p
+{
+    font-size: 20px;
+    color: #fff;
+    background: #3d3d3d;
+}
+.bot-zv
+{
+    position: relative;
+    top:-30px;
+}
+
+
+
+#im1
+{
+    width: 100%;
+    height: 100%;
+}
+
+.specil-zav
+{
+    justify-content: space-between;
+    display: flex;
+}
+
 
 footer {
  
