@@ -241,5 +241,9 @@ footer {
   height: 270px;
   display: inline-block;
   margin: 20px;
-  
+  border: 1px solid #4F4C4C;
+        border-bottom: 2px solid #4F4C4C;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
 }
