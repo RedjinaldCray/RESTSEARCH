@@ -43,45 +43,24 @@
 
 
     <main>
-
         <div class="restsearch">
-                <img src="images/restsearch1.png" id = "imgone">
-               
+            <img src="images/restsearch1.png" id = "imgone">
         </div>
+
+        <div class="text_area">
+            <h3 class="city">Выбрать город: </h3><br>
+
+            <a href="#choose" class="start_search"> НАЧАТЬ ПОИСК </a>
+        </div>
+
         <section class="specialize-contrainer">
-
-            <h3>Выбрать город: </h3>
-        <div class="text">
-            <p> Перейти </p>
-
-            <div class="specil-zav">
-                <div class="zaved">
-                    <div class="top-zv">
-                        <img id = "im1" src="images/img22.jpg" alt="">
-                    </div>
-                    <div class="bot-zv">
-                        <p class="first-p">LONDON <br> PUB</p>
-                    
-                    </div>
-                </div>
-            
-
-
-                <div class="specil-zav">
-                <div class="zaved">
-                    <div class="top-zv">
-                        <img id = "im1" src="images/img22.jpg" alt="">
-                    </div>
-                    <div class="bot-zv">
-                        <p class="first-p">LONDON <br> PUB</p>
-                    
-                    </div>
-                </div>
-
-
+        
+            <div class="select_area" id="choose">
+                <div class="box" id="hoockans"></div>
+                <div class="box" id="pubs"></div>
+                <div class="box" id="coffes"></div>
+                <div class="box" id="anti-cafes"></div>
             </div>
-
-        </div>
 
          </section>
        
@@ -97,7 +76,8 @@
     </footer>
 
 
-
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/swipe-script.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </body>
