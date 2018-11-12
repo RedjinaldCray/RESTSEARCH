@@ -7,6 +7,7 @@
   
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" type="text/css" href="css/elements/boxCategories.css">
+    <link rel="stylesheet" type="text/css" href="css/wowjs.css">
 </head>
 
 <body>
@@ -57,10 +58,10 @@
         <section class="specialize-contrainer">
         
             <div class="select_area" id="choose">
-                <div class="box" id="hookahs"></div>
-                <div class="box" id="pubs"></div>
-                <div class="box" id="coffes"></div>
-                <div class="box" id="anti-coffes"></div>
+                <div class="box wow fadeInLeft" id="hookahs"></div>
+                <div class="box wow fadeInRight" id="pubs"></div>
+                <div class="box wow fadeInLeft" id="coffes"></div>
+                <div class="box wow fadeInRight" id="anti-coffes"></div>
             </div>
 
          </section>
@@ -78,9 +79,9 @@
 
 
     <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/wowjs.js"></script> <!-- Иницилизация скрипта animate.js (WOW.js) -->
+    <script type="text/javascript" src="scripts/appearanceBox.js"></script>
     <script type="text/javascript" src="scripts/swipe-script.js"></script>
-    <script type="text/javascript" src="script/apearanceBox.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </body>

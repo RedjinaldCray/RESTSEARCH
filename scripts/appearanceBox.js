@@ -1,3 +1,1 @@
-function appeearBox {
-	
-}
+new WOW().init(); /*Инициализация функции анимаций*/
