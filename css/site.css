@@ -38,15 +38,15 @@ button {
   font-family: inherit;
 }
 button.learn-more {
-  width: 12rem;
+  width: 10rem;
   height: auto;
 }
 button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   margin: 0;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem; /* Размер круга и развертывания */
+  height: 2rem;
   background: #b60818;
   border-radius: 1.625rem;
 }
@@ -60,7 +60,7 @@ button.learn-more .circle .icon {
 }
 button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.625rem;
+  left: 0.125rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
@@ -84,8 +84,8 @@ button.learn-more .button-text {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0.5rem 0;
-  margin: 0 0 0 1rem;
+  padding: 0.0rem 1; /* Размер текста */
+  margin: 0 0 0 0rem;
   color: #282936;
   font-weight: 700;
   line-height: 1.6;
