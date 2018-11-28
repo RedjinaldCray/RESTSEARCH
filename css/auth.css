@@ -1,0 +1,13 @@
+#auth_win {
+	background-color: #999999;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	margin-left: 460px;\
+	position: relative;
+	z-index: 999999;
+}
+
+.block_auth {
+	background: green;
+}

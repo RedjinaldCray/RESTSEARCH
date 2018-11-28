@@ -18,7 +18,7 @@ body
 header
 {
     margin: 0 auto;
-    height: auto;
+    height: 120px;
     background: #3d3d3d;
     background-repeat: no-repeat;
 }
@@ -258,7 +258,6 @@ footer {
   
    transform: rotate(0deg) scale(1.05,1.05) ;
    -webkit-box-shadow: 3px 3px 0px white;
-   z-index: 999;
    transition: transform 300ms linear 0ms, 
   box-shadow 300ms linear 0ms, z-index 300ms linear 0ms;
   
