@@ -3,23 +3,26 @@ body {
   min-width: 800px;
   font-family: Calibri;
   margin: 0;
+  width: 100%
   height: auto;
 }
 
 .header {
-  height: 25%;
+  height: 40px;
   width: 100%;
-  display: inline-block;
   position: fixed;
-  background: #454545;
+  background: #686868;
+  z-index: 1000;
 }
 
 .menu {
+  margin-top: 40px;
   width: 100%;
-  height: 75%;
+  height: 1000px;
+  position: absolute;
 }
 
 #mainimage {
   width: 100%;
   height: 625px;
-}
+} 
