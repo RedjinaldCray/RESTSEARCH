@@ -7,22 +7,61 @@ body {
   height: auto;
 }
 
+.start a { /* кнопка */
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 160px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 65px;
+  margin: 30px 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: #2EE59D;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  box-shadow: 0 5px 0 #ECECEC;
+}
+
+.start a:hover {
+  background: white;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: black;
+  transform: translateY(-7px);
+}
+
+.start {
+  position: relative;
+  bottom: 330px;
+}
+
+.start_content {
+  display: inline;
+}
+
 .header {
-  height: 40px;
+  height: 130px;
   width: 100%;
   position: fixed;
-  background: #686868;
+  background: #EBEBEB;
   z-index: 1000;
+  display: inline-block;
 }
 
 .menu {
-  margin-top: 40px;
+  margin-top: 130px;
   width: 100%;
   height: 1000px;
   position: absolute;
 }
 
 #mainimage {
-  width: 100%;
-  height: 625px;
+  display: block;
+  max-width: 100%;
+  height: auto;
 } 
