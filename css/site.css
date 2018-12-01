@@ -1,263 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-a{ text-decoration: none; }
-
-body 
-{
-    padding: 0;
-    margin: 0;
-    background: #3d3d3d;
-    color: #000;
-    font-family: 'Calibri'; /*change by ronny*/
-    font-size: 20px;
-    text-align: justify;
-}
-
-header
-{
-    margin: 0 auto;
-    height: auto;
-    background: #3d3d3d;
-    background-repeat: no-repeat;
-    display: inline;
-}
-
-
-button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
-  padding: 0;
-  font-size: inherit;
-  font-family: inherit;
-}
-button.learn-more {
-  width: 10rem;
+body {
+  max-width: 1500px;
+  min-width: 800px;
+  font-family: Calibri;
+  margin: 0;
+  width: 100%
   height: auto;
 }
-button.learn-more .circle {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: relative;
-  margin: 0;
-  width: 2rem; /* Размер круга и развертывания */
-  height: 2rem;
-  background: #b60818;
-  border-radius: 1.625rem;
-}
-button.learn-more .circle .icon {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-button.learn-more .circle .icon.arrow {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.125rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-button.learn-more .circle .icon.arrow::before {
-  position: absolute;
-  content: '';
-  top: -0.25rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid #737373;
-  border-right: 0.125rem solid #737373;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-button.learn-more .button-text {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.0rem 1; /* Размер текста */
-  margin: 0 0 0 0rem;
-  color: #282936;
-  font-weight: 700;
-  line-height: 1.6;
-  text-align: center;
-  text-transform: uppercase;
-}
-button:hover .circle {
-  width: 90%;
-}
-button:hover .circle .icon.arrow {
-  background: #737373;
-  -webkit-transform: translate(1rem, 0);
-          transform: translate(1rem, 0);
-}
-button:hover .button-text {
-  color: #fff;
-}
 
-#container
-{
-    width: 192px;
-    height: 48px;
-    padding: 0;
-    float: right;
-    margin-top: 35px;
-    margin-right: 20px;
-    position:relative;
-}
-
-
-
-.cap
-{
-    height: 120px;
-    width: 90%;
-    margin: 0 auto;
-}
-
-#logo
-{
-    margin-top: 0px;
-    margin-left: 20px;
-    display: inline;
-    width: 200px;
-    height: 120px;
-}
-
-.button-text a
-{
-    text-decoration: none;
-    color: #9f9f9f;
-}
-
-main {
-  
-	margin: 0 auto;
-	height: 2000px;
-    background: #737373;
-    background-repeat: no-repeat;
-}
-
-.restsearch
-{       
-     padding-top: 80px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 70%;
-    height: 300px;
-    display: flex;
-}
-
-#imgone
-{
-  width: 100%
-}
-
-.specialize-contrainer
-{
-    width: 100%;
-    height: 700px;
-}
-
-.text p
-{
-    font-size: 30px
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-.first-p
-{
-    font-size: 20px;
-    color: #fff;
-    background: #3d3d3d;
-}
-.bot-zv
-{
-    position: relative;
-    top:-30px;
-}
-
-
-
-#im1
-{
-    width: 100%;
-    height: 100%;
-}
-
-.specil-zav
-{
-    justify-content: space-between;
-    display: flex;
-}
-
-
-footer {
- 
-    margin: 0 auto;
-    height: 100px;
-    background: #3d3d3d;
-    background-repeat: no-repeat;
-}
-
-
-/* new  by ronny*/
-.text_area { /* зона текста */
+.header {
+  height: 40px;
   width: 100%;
-  height: 20em;
-  text-align: center;;
+  position: fixed;
+  background: #686868;
+  z-index: 1000;
 }
 
-.city {
-  margin: 0px;
-  color: white
-}
-
-.start_search {
-  color: white;
-}
-
-.select_area { /* зона для выбора */
-  height: 80%;
+.menu {
+  margin-top: 40px;
   width: 100%;
-  text-align: center;
+  height: 1000px;
+  position: absolute;
 }
 
-.box { /* контейнеры для категорий заведений */
-  width: 500px;
-  height: 270px;
-  display: inline-block;
-  margin: 20px;
-  border: 1px solid #4F4C4C;
-        border-bottom: 2px solid #4F4C4C;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-  transition: 0.2s linear; /* Скорость увелечения блока */
-}
-
-.box:hover {
-  /* -webkit-transform: scale(1.04);
-  transform: scale(1.04); */
-  -webkit-transform: scale(1.04);    /* Скорость */
-  -ms-transform: scale(1.04);       /*  трансформации */
-  transform: scale(1.04);          /* блока */
-  
-   transform: rotate(0deg) scale(1.05,1.05) ;
-   -webkit-box-shadow: 3px 3px 0px white;
-   z-index: 999;
-   transition: transform 300ms linear 0ms, 
-  box-shadow 300ms linear 0ms, z-index 300ms linear 0ms;
-  
-}
+#mainimage {
+  width: 100%;
+  height: 625px;
+} 
