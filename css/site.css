@@ -86,7 +86,7 @@ p {
 }
 
 .select_area { /* зона для выбора */
-  height: auto;
+  height: 800px;
   width: 100%;
   display: inline-block;
   text-align: center;
