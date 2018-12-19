@@ -1,6 +1,13 @@
 $(document).ready(function() {
-	$(".button-text").click(function() {
-		$("#auth_win").fadeIn(400);
+
+	//$(".login").hide();
+	$("#login").click(function() {
+		$(".login").fadeIn(400);
+		$('.message a').click(function(){
+   			$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+		});
+
+		$(".content-login").show();
 			var block = document.getElementById("auth_win");
 			block.style.display = "block";
 	})
