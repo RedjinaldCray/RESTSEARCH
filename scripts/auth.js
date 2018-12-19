@@ -11,4 +11,9 @@ $(document).ready(function() {
 			var block = document.getElementById("auth_win");
 			block.style.display = "block";
 	})
+
+	$(document).keydown(function(eventObject){
+                if (eventObject.which == 27)
+                    $('.login').hide();
+            });
 })
