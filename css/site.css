@@ -331,8 +331,12 @@ a{
 
 .content-login {
   width: 360px;
-  padding: 25% 0 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  padding: 0% 0 0;
   margin: auto;
+  transform: translate(-50%, -50%);
 }
 }
 
@@ -346,6 +350,14 @@ a{
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
+.form p {
+  margin: 5;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
