@@ -14,9 +14,9 @@ $(document).ready(function() {
             });
 
 
-	$(document).mouseup(function(e) {
+	$(document).mouseup(function(outclick) {
 		var conteiner = $(".login")
-		if (conteiner.has(e.target).length ===0) {
+		if (conteiner.has(outclick.target).length ===0) {
 			conteiner.fadeOut(400);
 		}
 	})
