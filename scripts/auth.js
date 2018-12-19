@@ -6,14 +6,18 @@ $(document).ready(function() {
 		$('.message a').click(function(){
    			$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 		});
-
-		$(".content-login").show();
-			var block = document.getElementById("auth_win");
-			block.style.display = "block";
-	})
+})
 
 	$(document).keydown(function(eventObject){
                 if (eventObject.which == 27)
                     $('.login').fadeOut(400);
             });
+
+
+	$(document).mouseup(function(e) {
+		var conteiner = $(".login")
+		if (conteiner.has(e.target).length ===0) {
+			conteiner.fadeOut(400);
+		}
+	})
 })
