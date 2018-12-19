@@ -14,6 +14,6 @@ $(document).ready(function() {
 
 	$(document).keydown(function(eventObject){
                 if (eventObject.which == 27)
-                    $('.login').hide();
+                    $('.login').fadeOut(400);
             });
 })
