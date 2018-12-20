@@ -3,10 +3,11 @@ $(document).ready(function() {
 	//$(".login").hide();
 	$("#login").click(function() {
 		$(".login").fadeIn(400);
-		$('.message a').click(function(){
+	})
+
+	$('.message a').click(function(){
    			$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 		});
-})
 
 	$(document).keydown(function(eventObject){
                 if (eventObject.which == 27)
