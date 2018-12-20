@@ -25,3 +25,31 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+#october {
+	background-image: url(../../images/template/img/october.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#grill {
+	background-image: url(../../images/template/img/grill.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jack {
+	background-image: url(../../images/template/img/jack.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#myata {
+	background-image: url(../../images/template/img/myata.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
