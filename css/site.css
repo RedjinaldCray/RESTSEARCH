@@ -505,3 +505,37 @@ a{
 .container .info span .fa {
   color: #EF3B3A;
 }
+
+
+.back {
+  position: absolute;
+  float: left;
+  z-index: 10;
+  left: 0;
+  background-color: #F1F1F1;
+  width: 50px;
+  height: 100%;
+  transition: .3s linear;
+}
+
+.back:hover {
+  opacity: 0.5;
+  background-color: #8D8D8D;
+  transition: .3s linear;
+}
+
+.back h1 {
+  margin: auto;
+  text-align-last: center;
+  color: #8D8D8D;
+  padding-top: 75px;
+  transition: .3s linear;
+  opacity: 0.3;
+  text-decoration: none;
+  user-select: none;
+}
+
+.back h1:hover {
+  color: #FF3B3B;
+  opacity: 1;
+}
