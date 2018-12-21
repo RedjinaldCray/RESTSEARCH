@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>АРТ КАФЕ ЧАЙКА</title>
+    
+    <link rel="stylesheet" type="text/css" href="../../css/elements/boxCategories.css">
+    <link rel="stylesheet" type="text/css" href="../../css/shablon.css">
+	<link rel="stylesheet" type="text/css" href="../../css/wowjs.css">
+    <link rel="stylesheet" type="text/css" href="../../css/login.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img  src = "../../images/logo3.png" alt="logo">
+            </div>
+
+            <input type="checkbox" id ="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" 
+                data-open="MENU" data-close="CLOSE" onclick></label>
+                <ul class="main-menu">
+                    <li><a href="#" class="button">DOWNLOAD</a></li>
+                    <li><a href="../../index.html" class="button" id="transition">HOME</a></li>
+                    <li><a href="#" class="button" id="login">LOG IN</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="menu">
+        <div class="login">
+            <div class="content-login">
+                <div class="form">
+                    <form class="register-form">
+                        <p>Регистрация</p>
+                      <input type="text" placeholder="Имя"/>
+                      <input type="password" placeholder="Пароль"/>
+                      <input type="text" placeholder="E-mail"/>
+                      <button>Зарегистрироваться</button>
+                        <p class="message">Готовы? <a href="#">Войти</a></p>
+                    </form>
+                    <form class="login-form">
+                        <p>Авторизация</p>
+                      <input type="text" placeholder="Имя пользователя"/>
+                      <input type="password" placeholder="Пароль"/>
+                      <button>Войти</button>
+                      <p class="message">Не зарегистрированны? <a href="#">Создать аккаунт</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <section>
+        
+        <div class="wrapper">
+                <div class="facility_name">
+                        <br><h1>АРТ КАФЕ ЧАЙКА</h1><br>
+                    </div>
+            <div class="main_about">
+                <div class="about_left">
+                    <img src="../../images/template/anti-cafe/art_cafe.jpg" >
+
+                    <p id="botomm_text">
+                            Арт-кафе «ЧАЙКА» находится в центре города на самой главной его улице, на Петровской!
+                            К услугам гостей огромный двухуровневый основной зал, отдельный банкетный зал вместимостью до 80-ти человек, бар, кальян-бар, профессиональная сцена, отличное обслуживание, прекрасная кухня и доброжелательный персонал! 
+                            <br>
+                            Арт-кафе «ЧАЙКА» не просто одно из лучших кафе города, но и место, где проходят настоящие концерты, выступления артистов, праздники и другие мероприятия.
+                    </p>
+                </div>
+                <div class="about_right">
+                        <div class="sidebar">						
+                                <div class="search_widget">
+                                    <input id="sr_bx" type="text" placeholder="Поиск..."/>
+                                </div>				
+                                <div class="widget">
+                                    <h2>Средний чек</h2>
+                                    <div class="title_br"></div>
+                                    <ul>
+                                        <li><p>Чай - 150 руб</p></li>
+                                        <li><p>Кальян - 700 руб</p></li>
+                                        <li><p>Алкоголь - 1000 руб</p></li>
+                                        <li><p>Бронирование столика - 700 руб</p></li>
+                                    </ul>
+                                </div>				
+                                <div class="widget">
+                                    <h2>Доп информация</h2>
+                                    <div class="title_br"></div>
+                                    <ul>
+                                        <li><p>АДРЕС: Петровская ул., 57</p></li>
+                                        <li><p>РЕЖИМ РАБОТЫ:</p></li>
+                                        <li><p>вс - чт 11:00-02:00 </p></li>
+                                        <li><p>пт - сб 11:00-04:00</p></li>
+                                        <li><p>Заказ столов: 8 (8634) 36-20-26</p></li>
+                                        
+                                    </ul>
+                                </div>		            		
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class= "section_map">
+        <div class="wr_map">
+                <div class="map_text">
+                    <h1>КАРТА</h1><br>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5420.379593541245!2d38.931893704780066!3d47.212868498778974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3fd3856c7998d%3A0xae3cc58eb27d80c9!2z0JDRgNGCLdC60LDRhNC1INCn0LDQudC60LA!5e0!3m2!1sru!2sru!4v1545387037860" width="900" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>                
+        </div>
+    </section>
+
+    <footer class="section_footer">
+        <div class="social">
+            <div class="adress">
+
+            </div>
+            <div class="dev_social">
+                <h3></h3>
+                <h3>DEV</h3>
+                <h5>CHAYKA</h4>
+                <h5>PRAVOTOROV</h4>
+                <h5>DOLSHIKOV</h4>
+            </div>
+        </div>
+    </footer>
+        
+    
+    <script type="text/javascript" src="../../scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../../scripts/wowjs.js"></script> <!-- Иницилизация скрипта animate.js (WOW.js) -->
+    <script type="text/javascript" src="../../scripts/appearanceBox.js"></script>
+    <script type="text/javascript" src="../../scripts/swipe-script.js"></script>
+    <script type="text/javascript" src="../../scripts/auth.js"></script>
+    <script type="text/javascript" src="../../scripts/transfer.js"></script>
+</body>
+</html>
