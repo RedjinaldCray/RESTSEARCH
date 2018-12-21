@@ -83,7 +83,7 @@ a{
 .wrapper
 {
   margin: 0 auto;
-  width: 60%;
+  width: 75%;
 }
 .wrapper .main_about
 {
@@ -91,20 +91,20 @@ a{
   display: flex;
 }
 .wrapper img{
-  height:520px;
-  width: 780px;
+  height:480px;
+  width: 720px;
   padding-bottom: 50px;
 }
 .about_left p{
   text-align: justify;
   font-size:  22px;
-  width: 780px;
+  width: 720px;
   text-indent: 30px;
   padding-bottom: 30px;
 }
 .about_right
 {
-  margin-left:180px;
+  margin-left:120px;
 }
 #sr_bx {
   border : #C4C4C4 solid 1px;
@@ -141,21 +141,51 @@ margin: 0px;
 
 .section_map{
   width: 100%;
-  height: 500px;
+  height: 400px;
   background: #363636;
 }
 .wr_map{
   margin: 0 auto;
-  width: 60%;
-  align-content: center;
+  width: 75%;
 }
-.map_text{
+.map_text h1{
   text-align: center;
   font-size: 24px;
   color: #fff;
-  padding-top: 2px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+.map{
+  width: 900px;
+  height: 250px;
+  margin: 0 auto;
 }
 
+.section_footer{
+  height: 180px;
+  width: 100%;
+  ;
+}
+.social{
+  margin: 0 auto;
+  width: 75%;
+}
+.dev_social{
+  padding-top: 40px;
+}
+.dev_social h3{
+  text-align: center;
+  color: #000;
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
+.dev_social h5{
+  text-align: center;
+  color: #000;
+  padding-top: 1px;
+  margin: 0 auto;
+}
 
 @media screen and (max-width:813px){  /*Адаптация для планшетов */
   .header-container{
