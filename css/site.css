@@ -109,7 +109,73 @@ a{
   transform: translateY(-7px);
 }
 
+.start-anti {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 160px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 65px;
+  margin: 0px 0px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: #2EE59D;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  box-shadow: 0 5px 0 #ECECEC;
+}
+
+.start-hookah {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 160px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 65px;
+  margin: 0px 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: #2EE59D;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  box-shadow: 0 5px 0 #ECECEC;
+}
+
+.start-anti:hover {
+  background: white;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: black;
+  transform: translateY(-7px);
+}
+
+.start-hookah:hover {
+  background: white;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: black;
+  transform: translateY(-7px);
+}
+
+.start-hookah {
+  position: absolute;
+  /* left: 40%; */
+}
+
 .start {
+  position: absolute;
+  /* left: 40%; */
+}
+
+.start-anti {
   position: absolute;
   /* left: 40%; */
 }

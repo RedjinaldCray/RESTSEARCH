@@ -53,3 +53,80 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+#subway {
+	background-image: url(../../images/template/img/subway.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#kfc {
+	background-image: url(../../images/template/img/kfc.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dodo {
+	background-image: url(../../images/template/img/dodo.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#drinkcoffe {
+	background-image: url(../../images/template/img/drinkcoffe.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#newyork {
+	background-image: url(../../images/template/img/newyork.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#chayka {
+	background-image: url(../../images/template/img/chayka.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#kamenka {
+	background-image: url(../../images/template/img/kamenka.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#moloko {
+	background-image: url(../../images/template/img/moloko.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jonny {
+	background-image: url(../../images/template/img/jonny.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#enot {
+	background-image: url(../../images/template/img/enot.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#place {
+	background-image: url(../../images/template/img/place.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+}
