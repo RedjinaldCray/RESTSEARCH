@@ -229,6 +229,7 @@ a{
   
 }
 
+
 @media screen and (max-width:813px){  /*Адаптация для планшетов */
   .header-container{
     width: 100%;
